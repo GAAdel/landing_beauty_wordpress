@@ -81,7 +81,7 @@
       <div class="banner-wrapper">
         <div class="banner-elements">
           <div>
-            <h1 class="banner-elements__title">Супер кресло</h1>
+            <h1 class="banner-elements__title"><?php the_field('main_title');?></h1>
           </div>
           <div>
             <p class="banner-elements__text">
