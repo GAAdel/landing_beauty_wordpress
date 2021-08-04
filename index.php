@@ -39,7 +39,7 @@
         <div class="body-elems header-body__info">
           <div class="header-body__info_theme">
             <div class="info-theme-logo">
-              <img class="info-theme__logo-icon" src="<?php echo get_template_directory_uri()?>/img/logo.svg" alt="" />
+              <?php the_custom_logo();?>
               <span class="info-theme__logo-name">BEAUTY</span>
             </div>
             <div>
