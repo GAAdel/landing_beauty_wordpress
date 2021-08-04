@@ -137,7 +137,7 @@
           </div>
           <div class="advert goods-elements__advert1">
             <div class="avert-title">
-              <p>Получайте бонусы и подарки</p>
+              <p><?php echo bloginfo('description')?></p>
             </div>
             <div class="avert-description advert-description-1">
               <div>
