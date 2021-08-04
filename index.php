@@ -104,33 +104,33 @@
             <img class="sticker-img" src="<?php echo get_template_directory_uri()?>/img/car.svg" alt="" />
           </div>
           <div class="good-elements__product product-1">
-            <img class="product__img" src="<?php the_field('main_image')?>" alt="" />
+            <img class="product__img" src="<?php the_field('product1_image')?>" alt="" />
             <p class="product__description">
-              Парикмахерское кресло «Норм» гидравлическое
+              <?php the_field('product1_description')?>
             </p>
             <p class="product__price">9 900 ₽</p>
             <button class="btn product__btn">Купить</button>
           </div>
           <div class="good-elements__product product-2">
-            <img class="product__img" src="<?php echo get_template_directory_uri()?>/img/chair.png" alt="" />
+            <img class="product__img" src="<?php the_field('product2_image')?>" alt="" />
             <p class="product__description">
-              Парикмахерское кресло «Норм» гидравлическое
+              <?php the_field('product2_description')?>
             </p>
             <p class="product__price">9 900 ₽</p>
             <button class="btn product__btn">Купить</button>
           </div>
           <div class="good-elements__product product-3">
-            <img class="product__img" src="<?php echo get_template_directory_uri()?>/img/chair.png" alt="" />
+            <img class="product__img" src="<?php the_field('product3_image')?>" alt="" />
             <p class="product__description">
-              Парикмахерское кресло «Норм» гидравлическое
+              <?php the_field('product3_description')?>
             </p>
             <p class="product__price">9 900 ₽</p>
             <button class="btn product__btn">Купить</button>
           </div>
           <div class="good-elements__product product-4">
-            <img class="product__img" src="<?php echo get_template_directory_uri()?>/img/chair.png" alt="" />
+            <img class="product__img" src="<?php the_field('product4_image')?>" alt="" />
             <p class="product__description">
-              Парикмахерское кресло «Норм» гидравлическое
+              <?php the_field('product4_description')?>
             </p>
             <p class="product__price">9 900 ₽</p>
             <button class="btn product__btn">Купить</button>
