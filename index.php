@@ -85,8 +85,7 @@
           </div>
           <div>
             <p class="banner-elements__text">
-              Текст акции всегда отражает суть, а не просто болтовню, поэтому
-              внимательнее
+              <?php the_field('main_description');?>
             </p>
           </div>
           <div>
