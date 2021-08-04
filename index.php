@@ -104,7 +104,7 @@
             <img class="sticker-img" src="<?php echo get_template_directory_uri()?>/img/car.svg" alt="" />
           </div>
           <div class="good-elements__product product-1">
-            <img class="product__img" src="<?php echo get_template_directory_uri()?>/img/chair.png" alt="" />
+            <img class="product__img" src="<?php the_field('main_image')?>" alt="" />
             <p class="product__description">
               Парикмахерское кресло «Норм» гидравлическое
             </p>
