@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <title>Beauty</title>
+    <?php wp_head();?>
   </head>
 
   <body>
@@ -216,5 +217,6 @@
         </div>
       </div>
     </footer>
+    <?php wp_footer();?>
   </body>
 </html>
