@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -40,7 +39,7 @@
         <div class="body-elems header-body__info">
           <div class="header-body__info_theme">
             <div class="info-theme-logo">
-              <img class="info-theme__logo-icon" src="./img/logo.svg" alt="" />
+              <img class="info-theme__logo-icon" src="<?php echo get_template_directory_uri()?>/img/logo.svg" alt="" />
               <span class="info-theme__logo-name">BEAUTY</span>
             </div>
             <div>
@@ -103,10 +102,10 @@
             <p>Специальные предложения</p>
           </div>
           <div class="goods-elements__sticker">
-            <img class="sticker-img" src="./img/car.svg" alt="" />
+            <img class="sticker-img" src="<?php echo get_template_directory_uri()?>/img/car.svg" alt="" />
           </div>
           <div class="good-elements__product product-1">
-            <img class="product__img" src="./img/chair.png" alt="" />
+            <img class="product__img" src="<?php echo get_template_directory_uri()?>/img/chair.png" alt="" />
             <p class="product__description">
               Парикмахерское кресло «Норм» гидравлическое
             </p>
@@ -114,7 +113,7 @@
             <button class="btn product__btn">Купить</button>
           </div>
           <div class="good-elements__product product-2">
-            <img class="product__img" src="./img/chair.png" alt="" />
+            <img class="product__img" src="<?php echo get_template_directory_uri()?>/img/chair.png" alt="" />
             <p class="product__description">
               Парикмахерское кресло «Норм» гидравлическое
             </p>
@@ -122,7 +121,7 @@
             <button class="btn product__btn">Купить</button>
           </div>
           <div class="good-elements__product product-3">
-            <img class="product__img" src="./img/chair.png" alt="" />
+            <img class="product__img" src="<?php echo get_template_directory_uri()?>/img/chair.png" alt="" />
             <p class="product__description">
               Парикмахерское кресло «Норм» гидравлическое
             </p>
@@ -130,7 +129,7 @@
             <button class="btn product__btn">Купить</button>
           </div>
           <div class="good-elements__product product-4">
-            <img class="product__img" src="./img/chair.png" alt="" />
+            <img class="product__img" src="<?php echo get_template_directory_uri()?>/img/chair.png" alt="" />
             <p class="product__description">
               Парикмахерское кресло «Норм» гидравлическое
             </p>
@@ -148,7 +147,7 @@
                 </p>
               </div>
               <div class="advert-description-1-envelope">
-                <img src="./img/envelope.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri()?>/img/envelope.svg" alt="" />
               </div>
             </div>
             <div class="avert-input">
